@@ -1,0 +1,296 @@
+
+
+
+main {
+    margin-top: 80px; 
+}
+
+
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-row img {
+    width: 315px;
+    height: auto;
+    
+}
+
+.image-row2 img {
+    width: 315px;
+    height: auto;
+}
+
+.image-row2 {
+    text-align: center;
+}
+
+.image-row2 img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------------------------------------*/
+.banner {
+    background-image: url('../imagenes/edit_jaguar.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+nav ul {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: beige;
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+/*------------------------------------------------------------------------------------*/
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0; 
+}
+
+p {
+    margin-bottom: 1.5em; 
+}
+
+h1, h2, h3 {
+    margin-top: 0; 
+
+}
+main > section {
+    margin-bottom: 2em; 
+}
+
+.main-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*.parallax {
+    height: 80vh; 
+    /*background-image: url('../imagenes/black2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    /*background-repeat: no-repeat; 
+    /*display: flex;
+    justify-content: center;
+    align-items: center; */
+
+.parallax {
+    height: 80vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+    
+.parallax-image {
+    flex: 1; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    width: 50%; 
+}
+
+.parallax-image:first-child {
+    background-position: -320px center;
+}
+
+.parallax-image:last-child {
+    background-size: 40%; 
+    background-position: right 10% center; 
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/musgo.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+    z-index: -1;
+}
+
+/*--------------------------------------------------------------------------------------*/
+.blur-background2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/musgo.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+    z-index: -1;
+}
+/*--------------------------------------------------------------------------------------*/
+.blur-background3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/musgo.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+    z-index: -1;
+}
+
+/*--------------------------------------------------------------------------------------*/
+.blur-background4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/musgo.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+    z-index: -1;
+}
+
+body {
+    color: #ffffff; 
+}
+
+a {
+    color: pink;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 20px; 
+    margin: 20px 0; 
+}
+
+
+p, h1, h2, h3, a {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    color: white; 
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+}
+
+.gallery a {
+    display: block;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.gallery a:hover {
+    border-color: #ffcc00;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 5px;
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: 250px; 
+    object-fit: cover; 
+}
+
+.gallery a {
+    position: relative; 
+    display: inline-block; 
+}
+
+
+
+
+
+
+.table-container {
+    margin: 20px auto;
+    max-width: 600px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #201f1f;
+}
+
+.boton {
+    background-color: rgb(13, 70, 13);
+}
+
+.boton:hover{
+    background-color: rgb(52, 155, 52);
+} 
